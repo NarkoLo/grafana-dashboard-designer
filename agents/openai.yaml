@@ -1,0 +1,14 @@
+interface:
+  display_name: Grafana Dashboard Designer
+  short_description: Проектирует понятные Grafana-дашборды
+  default_prompt: Используй $grafana-dashboard-designer, чтобы спроектировать и проверить
+    Grafana-дашборд моего сервиса.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
